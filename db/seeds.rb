@@ -2,6 +2,7 @@
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
 #
 # Examples:
+Hero.delete_all
 5.times do
   Hero.create name: Faker::Superhero.name
 end
